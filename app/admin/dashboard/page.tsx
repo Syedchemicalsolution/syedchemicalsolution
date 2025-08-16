@@ -90,7 +90,7 @@ export default function AdminDashboard() {
     contactInfo: {
       phone1: "03300062483",
       phone2: "03335408761",
-      email: "info@thecenturyscents.com",
+      email: "info@syedchemicalsolution.com",
       whatsapp: "03300062483",
       adminEmail: "noumantahir505@gmail.com",
     },
@@ -203,7 +203,7 @@ export default function AdminDashboard() {
       faq3Answer: "Yes, we have a 7-day return policy for unopened products.",
       phone1: "03300062483",
       phone2: "03335498761",
-      email: "info@thecenturyscents.com",
+      email: "info@syedchemicalsolution.com",
     },
     header: {
       topBarText: "Free shipping on orders over Rs 2000 | Call: 03300062483",

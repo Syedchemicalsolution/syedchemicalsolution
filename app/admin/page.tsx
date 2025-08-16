@@ -78,10 +78,10 @@ export default function AdminPanel() {
     heroImage: "/placeholder.svg?height=600&width=1200&text=Luxury+Perfume+Hero+Image",
     heroTitle: "DISCOVER THE ESSENCE OF LUXURY",
     heroSubtitle: "Experience our exclusive collection of premium fragrances",
-    adminEmail: "admin@thecenturyscents.com",
+    adminEmail: "admin@syedchemicalsolution.com",
     phone1: "03300062483",
     phone2: "03335408761",
-    email: "info@thecenturyscents.com",
+    email: "info@syedchemicalsolution.com",
     address: "Karachi, Pakistan",
   })
   const [credentials, setCredentials] = useState({ username: "", password: "" })
@@ -98,7 +98,7 @@ export default function AdminPanel() {
         JSON.stringify({
           username: "admin",
           password: "admin123",
-          email: "admin@thecenturyscents.com",
+          email: "admin@syedchemicalsolution.com",
         }),
       )
     }
