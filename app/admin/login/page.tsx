@@ -22,9 +22,9 @@ export default function AdminLogin() {
       localStorage.setItem(
         "adminCredentials",
         JSON.stringify({
-          username: "admin",
-          password: "admin123",
-          email: "admin@syedchemicalsolution.com",
+          username: "Hassan Shah",
+          password: "shah123@chemsol",
+          email: "syedchemicalsolution@gmail.com",
         }),
       )
     }
@@ -44,7 +44,7 @@ export default function AdminLogin() {
     await new Promise((resolve) => setTimeout(resolve, 1000))
 
     const storedCredentials = JSON.parse(
-      localStorage.getItem("adminCredentials") || '{"username": "admin", "password": "admin123"}',
+      localStorage.getItem("adminCredentials") ||,
     )
 
     if (credentials.username === storedCredentials.username && credentials.password === storedCredentials.password) {
