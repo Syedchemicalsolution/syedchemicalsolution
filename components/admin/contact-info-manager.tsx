@@ -11,8 +11,8 @@ export default function ContactInfoManager() {
     phone1: "03300062483",
     phone2: "03335408761",
     whatsapp: "03300062483",
-    email: "info@thecenturyscents.com",
-    adminEmail: "admin@thecenturyscents.com",
+    email: "info@syedchemicalsolution.com",
+    adminEmail: "admin@syedchemicalsolution.com",
     address: "Karachi, Pakistan",
     businessHours: "Mon-Sat: 9:00 AM - 8:00 PM",
   })
@@ -34,8 +34,8 @@ export default function ContactInfoManager() {
       phone1: "03300062483",
       phone2: "03335408761",
       whatsapp: "03300062483",
-      email: "info@thecenturyscents.com",
-      adminEmail: "admin@thecenturyscents.com",
+      email: "info@syedchemicalsolution.com",
+      adminEmail: "admin@syedchemicalsolution.com",
       address: "Karachi, Pakistan",
       businessHours: "Mon-Sat: 9:00 AM - 8:00 PM",
     })
@@ -112,7 +112,7 @@ export default function ContactInfoManager() {
                     type="email"
                     value={contactInfo.email}
                     onChange={(e) => handleInputChange("email", e.target.value)}
-                    placeholder="info@thecenturyscents.com"
+                    placeholder="info@syedchemicalsolution.com"
                   />
                   <p className="text-sm text-gray-500 mt-1">Public email for customer inquiries</p>
                 </div>
@@ -123,7 +123,7 @@ export default function ContactInfoManager() {
                     type="email"
                     value={contactInfo.adminEmail}
                     onChange={(e) => handleInputChange("adminEmail", e.target.value)}
-                    placeholder="admin@thecenturyscents.com"
+                    placeholder="admin@syedchemicalsolution.com"
                   />
                   <p className="text-sm text-gray-500 mt-1">Email where order notifications will be sent</p>
                 </div>

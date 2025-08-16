@@ -35,7 +35,7 @@ export function Header() {
     contactInfo: {
       phone1: "03300062483",
       phone2: "03335408761",
-      email: "info@thecenturyscents.com",
+      email: "info@syedchemicalsolution.com",
     },
     colors: {
       headerBg: "#ffffff",

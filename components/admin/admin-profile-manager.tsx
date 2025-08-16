@@ -90,12 +90,12 @@ export default function AdminProfileManager() {
       const defaultCredentials = {
         username: "admin",
         password: "admin123",
-        email: "admin@thecenturyscents.com",
+        email: "admin@syedchemicalsolution.com",
       }
       localStorage.setItem("adminCredentials", JSON.stringify(defaultCredentials))
       setAdminProfile({
         username: "admin",
-        email: "admin@thecenturyscents.com",
+        email: "admin@syedchemicalsolution.com",
         currentPassword: "",
         newPassword: "",
         confirmPassword: "",
