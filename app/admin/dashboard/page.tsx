@@ -81,7 +81,7 @@ export default function AdminDashboard() {
 
   // Website Settings State
   const [websiteSettings, setWebsiteSettings] = useState({
-    siteName: "THE CENTURY SCENTS",
+    siteName: "syed chemical solution",
     logo: "",
     heroImage: "/hero-perfumes.png",
     heroTitle: "DISCOVER THE ESSENCE OF LUXURY",
@@ -136,20 +136,20 @@ export default function AdminDashboard() {
       pageTitle: "About us",
       breadcrumbHome: "Home",
       historyTitle: "HISTORY OF PERFUME INDUSTRY",
-      mainTitle: "About The Century Scents",
+      mainTitle: "About syed chemical solution",
       paragraph1:
         "The art of perfumery dates back thousands of years, with ancient civilizations like the Egyptians, Persians, and Greeks using fragrances in rituals, medicine, and personal grooming. As time progressed, perfumery flourished in the Islamic Golden Age and later in Renaissance Europe, especially in France, which became the global hub of luxury fragrance.",
       paragraph2:
         "Today, the perfume industry blends centuries of tradition with cutting-edge technology, and luxury fragrance often comes at a high cost—until now.",
-      slogan: "The Century Scents' slogan: Everyone Deserves to Smell Amazing.",
+      slogan: "syed chemical solution' slogan: Everyone Deserves to Smell Amazing.",
       paragraph3:
-        "Led by Syed Bilal bin Amir and Syed Talha bin Amir, two highly motivated and committed individuals, The Century Scents is more than just a brand—it's a mission. Their passion for excellence and drive to make premium fragrance accessible to all has made The Century Scents a reliable and respected source in the perfume world.",
+        "Led by Syed Bilal bin Amir and Syed Talha bin Amir, two highly motivated and committed individuals, syed chemical solution is more than just a brand—it's a mission. Their passion for excellence and drive to make premium fragrance accessible to all has made syed chemical solution a reliable and respected source in the perfume world.",
       paragraph4:
-        "The Century Scents has revolutionized the market by offering exceptional quality perfumes at very cheap prices. Built on the belief that everyone deserves to experience luxury without paying luxury prices, Century Scents is a trusted name for those seeking long-lasting, elegant, and affordable fragrances.",
+        "syed chemical solution has revolutionized the market by offering exceptional quality perfumes at very cheap prices. Built on the belief that everyone deserves to experience luxury without paying luxury prices, Century Scents is a trusted name for those seeking long-lasting, elegant, and affordable fragrances.",
       paragraph5:
-        "What truly sets The Century Scents apart is its expertise in crafting high-quality impressions of world-famous perfume brands—delivering the same luxurious experience at a fraction of the cost. Every bottle reflects dedication to quality, attention to detail, and an unwavering commitment to customer satisfaction.",
+        "What truly sets syed chemical solution apart is its expertise in crafting high-quality impressions of world-famous perfume brands—delivering the same luxurious experience at a fraction of the cost. Every bottle reflects dedication to quality, attention to detail, and an unwavering commitment to customer satisfaction.",
       paragraph6:
-        "With The Century Scents, you don't just wear a perfume you wear confidence, class, and quality that speaks volumes.",
+        "With syed chemical solution, you don't just wear a perfume you wear confidence, class, and quality that speaks volumes.",
       historyCard1Title: "Our company history and facts",
       historyCard1Text:
         "Founded as incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.",
@@ -219,7 +219,7 @@ export default function AdminDashboard() {
       checkoutText: "Checkout",
     },
     footer: {
-      companyTitle: "THE CENTURY SCENTS",
+      companyTitle: "syed chemical solution",
       companyDescription:
         "Your trusted source for premium chemical solutions and fragrances. Quality, authenticity, and customer satisfaction are our top priorities.",
       quickLinksTitle: "Quick Links",
@@ -238,7 +238,7 @@ export default function AdminDashboard() {
       instagramText: "Instagram",
       twitterText: "Twitter",
       whatsappText: "WhatsApp",
-      copyrightText: "© 2024 The Century Scents. All rights reserved.",
+      copyrightText: "© 2024 syed chemical solution. All rights reserved.",
       developedText: "Developed with ❤️ for premium fragrances",
     },
   })

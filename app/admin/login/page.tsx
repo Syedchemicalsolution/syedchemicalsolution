@@ -24,7 +24,7 @@ export default function AdminLogin() {
         JSON.stringify({
           username: "Hassan Shah",
           password: "shah123@chemsol",
-          email: "syedchemicalsolution@gmail.com",
+          email: "admin@syedchemicalsolution.com",
         }),
       )
     }
@@ -44,7 +44,7 @@ export default function AdminLogin() {
     await new Promise((resolve) => setTimeout(resolve, 1000))
 
     const storedCredentials = JSON.parse(
-      localStorage.getItem("adminCredentials") ||,
+      localStorage.getItem("adminCredentials") || '{"username": "Hassan Shah", "password": "shah123@chemsol"}',
     )
 
     if (credentials.username === storedCredentials.username && credentials.password === storedCredentials.password) {
@@ -133,17 +133,7 @@ export default function AdminLogin() {
             </Button>
           </form>
 
-          <div className="mt-8 p-4 bg-gray-50 rounded-lg">
-            <p className="text-center text-sm text-gray-600 mb-2 font-semibold">Default Credentials:</p>
-            <div className="text-center text-sm text-gray-500 space-y-1">
-              <p>
-                Username: <span className="font-mono bg-gray-200 px-2 py-1 rounded">admin</span>
-              </p>
-              <p>
-                Password: <span className="font-mono bg-gray-200 px-2 py-1 rounded">admin123</span>
-              </p>
-            </div>
-          </div>
+          
         </CardContent>
       </Card>
     </div>

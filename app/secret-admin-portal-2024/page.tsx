@@ -51,7 +51,7 @@ export default function AdminLogin() {
             <Lock className="w-10 h-10 text-white" />
           </div>
           <CardTitle className="text-3xl font-bold text-gray-800">Admin Portal</CardTitle>
-          <p className="text-gray-600 mt-2">The Century Scents Management System</p>
+          <p className="text-gray-600 mt-2">syed chemical solution Management System</p>
         </CardHeader>
 
         <CardContent className="pb-8">

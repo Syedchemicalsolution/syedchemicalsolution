@@ -51,7 +51,7 @@ export const sendOrderNotification = async (orderData: any, adminEmail: string):
     // Prepare email data
     const emailData = {
       to_email: emailJSConfig.adminEmail || adminEmail,
-      subject: `🛒 New Order #${orderData.id} - The Century Scents`,
+      subject: `🛒 New Order #${orderData.id} - syed chemical solution`,
       customer_name: orderData.customer?.name || "Unknown Customer",
       customer_phone: orderData.customer?.phone || "Not provided",
       customer_email: orderData.customer?.email || "Not provided",

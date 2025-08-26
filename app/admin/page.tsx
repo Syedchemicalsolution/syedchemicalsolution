@@ -73,7 +73,7 @@ export default function AdminPanel() {
   const [products, setProducts] = useState(initialProducts)
   const [orders, setOrders] = useState(initialOrders)
   const [settings, setSettings] = useState({
-    siteName: "The Century Scents",
+    siteName: "syed chemical solution",
     logo: "/placeholder.svg?height=60&width=200&text=THE+CENTURY+SCENTS+LOGO",
     heroImage: "/placeholder.svg?height=600&width=1200&text=Luxury+Perfume+Hero+Image",
     heroTitle: "DISCOVER THE ESSENCE OF LUXURY",
@@ -203,7 +203,7 @@ export default function AdminPanel() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">Admin Panel - The Century Scents</h1>
+          <h1 className="text-3xl font-bold text-gray-800 mb-2">Admin Panel - syed chemical solution</h1>
           <p className="text-gray-600">Manage your website content, products, and orders</p>
         </div>
 
@@ -678,7 +678,7 @@ export default function AdminPanel() {
               <Lock className="w-10 h-10 text-white" />
             </div>
             <CardTitle className="text-3xl font-bold text-gray-800">Admin Portal</CardTitle>
-            <p className="text-gray-600 mt-2">The Century Scents Management System</p>
+            <p className="text-gray-600 mt-2">syed chemical solution Management System</p>
           </CardHeader>
 
           <CardContent className="pb-8">

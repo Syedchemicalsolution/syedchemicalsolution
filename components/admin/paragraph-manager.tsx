@@ -19,14 +19,14 @@ export default function ParagraphManager() {
     about: {
       pageTitle: "About us",
       historyTitle: "HISTORY OF PERFUME INDUSTRY",
-      mainTitle: "About The Century Scents",
+      mainTitle: "About syed chemical solution",
       paragraph1:
         "The art of perfumery dates back thousands of years, with ancient civilizations like the Egyptians, Persians, and Greeks using fragrances in rituals, medicine, and personal grooming. As time progressed, perfumery flourished in the Islamic Golden Age and later in Renaissance Europe, especially in France, which became the global hub of luxury fragrance.",
       paragraph2:
         "Today, the perfume industry blends centuries of tradition with cutting-edge technology, and luxury fragrance often comes at a high cost—until now.",
-      slogan: "The Century Scents' slogan: Everyone Deserves to Smell Amazing.",
+      slogan: "syed chemical solution' slogan: Everyone Deserves to Smell Amazing.",
       paragraph3:
-        "Led by Syed Bilal bin Amir and Syed Talha bin Amir, two highly motivated and committed individuals, The Century Scents is more than just a brand—it's a mission. Their passion for excellence and drive to make premium fragrance accessible to all has made The Century Scents a reliable and respected source in the perfume world.",
+        "Led by Syed Bilal bin Amir and Syed Talha bin Amir, two highly motivated and committed individuals, syed chemical solution is more than just a brand—it's a mission. Their passion for excellence and drive to make premium fragrance accessible to all has made syed chemical solution a reliable and respected source in the perfume world.",
     },
     shop: {
       pageTitle: "Shop",
@@ -81,10 +81,10 @@ export default function ParagraphManager() {
         about: {
           pageTitle: "About us",
           historyTitle: "HISTORY OF PERFUME INDUSTRY",
-          mainTitle: "About The Century Scents",
+          mainTitle: "About syed chemical solution",
           paragraph1: "The art of perfumery dates back thousands of years...",
           paragraph2: "Today, the perfume industry blends centuries of tradition...",
-          slogan: "The Century Scents' slogan: Everyone Deserves to Smell Amazing.",
+          slogan: "syed chemical solution' slogan: Everyone Deserves to Smell Amazing.",
           paragraph3: "Led by Syed Bilal bin Amir and Syed Talha bin Amir...",
         },
         shop: {

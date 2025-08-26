@@ -8,9 +8,9 @@ import { CartProvider } from "@/components/cart-context"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "The Century Scents - Premium Fragrances",
-  description: "Discover luxury fragrances at affordable prices. Premium quality perfumes with long-lasting scents.",
-    generator: 'v0.app'
+  title: "Syed Chemical solutions",
+  description: "Discover Chemical solutions at affordable prices. Premium quality olutions with long-lasting effects.",
+    generator: 'Nouman Tahir'
 }
 
 export default function RootLayout({

@@ -30,7 +30,7 @@ export function Header() {
   })
 
   const [websiteSettings, setWebsiteSettings] = useState({
-    siteName: "THE CENTURY SCENTS",
+    siteName: "syed chemical solution",
     logo: "",
     contactInfo: {
       phone1: "03300062483",

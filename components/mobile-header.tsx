@@ -12,7 +12,7 @@ export default function MobileHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
   const [websiteSettings, setWebsiteSettings] = useState({
-    siteName: "THE CENTURY SCENTS",
+    siteName: "syed chemical solution",
     logo: "",
     contactInfo: {
       phone1: "03300062483",

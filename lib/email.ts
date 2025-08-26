@@ -23,7 +23,7 @@ export const sendOrderNotification = async (orderData: any, adminEmail: string):
 
     const emailData = {
       to_email: emailJSConfig.adminEmail || adminEmail,
-      subject: "🛒 New Order Placed - The Century Scents",
+      subject: "🛒 New Order Placed - syed chemical solution",
       message: `
         A new order has been placed!
         
@@ -47,7 +47,7 @@ export const sendOrderNotification = async (orderData: any, adminEmail: string):
         Please process this order as soon as possible.
         
         Best regards,
-        The Century Scents System
+        syed chemical solution System
       `,
       order_link: `${window.location.origin}/secret-admin-portal-2024/dashboard?order=${orderData.id}`,
     }
