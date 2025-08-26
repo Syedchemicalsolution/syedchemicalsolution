@@ -1,4 +1,4 @@
-# The Century Scents - Complete E-commerce Website
+# syed chemical solution - Complete E-commerce Website
 
 A modern, fully-featured e-commerce website built with Next.js for chemical solutions and fragrances.
 
